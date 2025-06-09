@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 } 
-body{
-  background: linear-gradient(0.25turn, #8cdb57, #6dbc49, #5aa739, #498e2e, #3b7c1d);
-}
+
 
 .logo img {
   width: 100px ;
@@ -53,15 +51,33 @@ body{
 }
 
 .nav ul li img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+}
+
+.contenido{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.contenido h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contenido img{
+    width: 900px;
+    height: 650px;
 }
 
 .examen{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 650px;
+  height: 700px;
   width: 100%;
 
 }
@@ -88,9 +104,35 @@ body{
   margin: 10px;
 
 }
-.degrade img{
-  width: 900px;
-  height: 650px;
+.degrade{
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(0.25turn, #8cdb56, #6dbc49, #5aa739, #498e2e, #3b7c1d); /*la paleta de colores de este degradado esta en la carpeta images*/ 
+  padding: 50px;
+  flex-wrap: wrap;
+
+}
+
+.degrade h2{
+  font-size: 2rem;
+  text-align: justify;
+  margin-top: 160px;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  width: 250px;
+  height: 100px;
+  margin-right: 45%;
+}
+.degrade p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 40%;
+    margin-right: 30%;
+    text-align: left;
 }
 
 
@@ -127,5 +169,3 @@ body{
   margin-bottom: 20px;
   text-align: center;
 }
-
-
