@@ -1,5 +1,131 @@
-.contenido {
-    display: flex;
-    background-color: 8BDBS6;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+body{
+  background: linear-gradient(0.25turn, #8cdb57, #6dbc49, #5aa739, #498e2e, #3b7c1d);
 }
+
+.logo img {
+  width: 100px ;
+  height: 100px;
+  margin-left: 20px ;
+    
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo h1{
+
+  font-size: 1.5rem;
+}
+
+.contenedor_notas {
+  display: flex;
+  background-color: #8bdb56;
+  flex-wrap: wrap;
+}
+
+.encabezado{
+  display: flex;
+  justify-content: space-between;
+  background-color: #8bdb56;
+  width: 100%;
+
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8bdb56;
+  padding: 10px 20px;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav ul li {
+  margin: 0 15px;
+}
+
+.nav ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.examen{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 650px;
+  width: 100%;
+
+}
+
+.formulario{
+  flex: 1;
+  background-color: white;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 20px;
+}
+
+.formulario img{
+  width: 70px;
+  height: 70px;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+
+}
+.degrade img{
+  width: 900px;
+  height: 650px;
+}
+
+
+.formulario label {
+  font-weight: 600;
+  display: block;
+  font-size: 1rem; 
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.furmulario input {
+  margin-bottom: 10px;
+  padding: 10px;
+  align-items: center;
+  align-content:center ;
+
+
+}
+
+.formulario button{
+  background-color: #8bdb56;
+  color: white;
+  border: none;
+  padding: 7.5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.formulario h2{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 
